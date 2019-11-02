@@ -113,7 +113,7 @@ textarea {
   }
 
   .small{
-    logo: 367px;
+    logo: 200px;
   }
 
   .floatleft{
@@ -127,7 +127,7 @@ textarea {
  #menulist li{
    display: inline-block;
    margin: 0;
-   margin-right: 30px;
+   margin-right: 20px;
    float:left;
    color:white;
    text-align:center;
@@ -142,15 +142,16 @@ textarea {
    text-align: right;
    list-style-type:none;
    overflow:hidden;
-   background-color:lightslategrey;
+
  }
 
 li a{
   display:block;
-  color:white;
+  color:black;
   text-align:center;
   padding:16px;
   text-decoration:underline overline;
+  font-size: 15px;
 }
 
 li a:hover {
@@ -158,14 +159,23 @@ li a:hover {
 }
  #sidebar{
    padding-top: 100px;
-   padding-left: auto;
+   padding-left: 80px;
  }
 .center{
   margin: auto;
   width: 60%;
   padding: 10px;
+  font-family: Courier New, Typewriter, monospace;
 }
 
+h1{
+  font-size: 40px;
+}
+
+#masthead{
+  padding-top: 10px;
+  padding-bottom: -10px;
+}
 
 
 /* ==========================================================================
